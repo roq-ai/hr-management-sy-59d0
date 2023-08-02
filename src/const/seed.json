@@ -1,0 +1,1652 @@
+[
+  {
+    "student": [
+      {
+        "id": "71ec8337-82ca-41bf-9868-d72bc3ab8503",
+        "name": "Alice",
+        "created_at": "2023-08-02T09:24:30.853Z",
+        "updated_at": "2023-08-01T18:49:46.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca",
+        "name": "Bob",
+        "created_at": "2023-08-02T11:27:52.442Z",
+        "updated_at": "2023-08-02T06:55:22.190Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e18a4a06-35b4-4cd8-abd6-f6cefe84e93d",
+        "name": "Eva",
+        "created_at": "2023-08-01T21:40:34.983Z",
+        "updated_at": "2023-08-01T14:34:11.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4dad26e8-0573-490b-802a-4d5d27ed7b42",
+        "name": "Max",
+        "created_at": "2023-08-02T07:22:43.302Z",
+        "updated_at": "2023-08-02T00:27:04.204Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95771972-2b62-4426-b3f2-19843c2a69fa",
+        "name": "Lily",
+        "created_at": "2023-08-02T02:37:00.297Z",
+        "updated_at": "2023-08-01T16:28:12.885Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "0a6262e8-b379-4799-936d-26fa2c807119",
+        "start_date": "2023-08-02T07:17:03.173Z",
+        "end_date": "2023-08-01T20:34:39.338Z",
+        "created_at": "2023-08-01T21:51:13.789Z",
+        "updated_at": "2023-08-02T03:15:10.031Z",
+        "student_id": "95771972-2b62-4426-b3f2-19843c2a69fa"
+      },
+      {
+        "id": "890e17ef-558f-4c81-83b8-a145499b585a",
+        "start_date": "2023-08-02T00:40:53.675Z",
+        "end_date": "2023-08-02T04:24:50.969Z",
+        "created_at": "2023-08-02T05:06:27.023Z",
+        "updated_at": "2023-08-02T10:50:37.083Z",
+        "student_id": "4dad26e8-0573-490b-802a-4d5d27ed7b42"
+      },
+      {
+        "id": "1437da67-7aaf-4ee0-94a4-4f718165765a",
+        "start_date": "2023-08-01T13:48:50.019Z",
+        "end_date": "2023-08-01T16:05:32.529Z",
+        "created_at": "2023-08-01T23:48:03.900Z",
+        "updated_at": "2023-08-02T00:39:37.422Z",
+        "student_id": "4dad26e8-0573-490b-802a-4d5d27ed7b42"
+      },
+      {
+        "id": "69d2a059-9fc8-47d0-acaf-35fd7937bd6f",
+        "start_date": "2023-08-01T14:19:38.455Z",
+        "end_date": "2023-08-01T23:08:10.137Z",
+        "created_at": "2023-08-02T02:16:26.538Z",
+        "updated_at": "2023-08-02T06:13:41.906Z",
+        "student_id": "4dad26e8-0573-490b-802a-4d5d27ed7b42"
+      },
+      {
+        "id": "80b96954-68a0-4d4e-90ea-f8816b7bf3a3",
+        "start_date": "2023-08-01T19:21:00.660Z",
+        "end_date": "2023-08-02T11:37:35.040Z",
+        "created_at": "2023-08-02T02:24:44.019Z",
+        "updated_at": "2023-08-01T18:35:36.177Z",
+        "student_id": "e18a4a06-35b4-4cd8-abd6-f6cefe84e93d"
+      }
+    ],
+    "marks": [
+      {
+        "id": "cd12e1b3-4688-4bd9-b10c-c91083880fca",
+        "subject": "Mathematics",
+        "score": 79640,
+        "created_at": "2023-08-01T14:06:49.910Z",
+        "updated_at": "2023-08-02T00:21:01.897Z",
+        "student_id": "4dad26e8-0573-490b-802a-4d5d27ed7b42"
+      },
+      {
+        "id": "8271ffd8-0fb2-4233-b9f8-581491a1a571",
+        "subject": "Science",
+        "score": 18877,
+        "created_at": "2023-08-02T05:28:34.269Z",
+        "updated_at": "2023-08-02T00:07:57.139Z",
+        "student_id": "95771972-2b62-4426-b3f2-19843c2a69fa"
+      },
+      {
+        "id": "6925fa7b-a6e0-4117-a02a-abb1fd530fb9",
+        "subject": "History",
+        "score": 65444,
+        "created_at": "2023-08-01T22:31:27.627Z",
+        "updated_at": "2023-08-01T23:15:47.378Z",
+        "student_id": "e18a4a06-35b4-4cd8-abd6-f6cefe84e93d"
+      },
+      {
+        "id": "dabf7748-a152-43c1-a593-22e34718ec2b",
+        "subject": "English",
+        "score": 40734,
+        "created_at": "2023-08-01T19:58:59.463Z",
+        "updated_at": "2023-08-01T18:55:57.367Z",
+        "student_id": "e18a4a06-35b4-4cd8-abd6-f6cefe84e93d"
+      },
+      {
+        "id": "05849b60-3cc0-47fe-97d4-a6bac4a1248f",
+        "subject": "Geography",
+        "score": 90164,
+        "created_at": "2023-08-02T08:43:53.374Z",
+        "updated_at": "2023-08-02T09:25:14.828Z",
+        "student_id": "71ec8337-82ca-41bf-9868-d72bc3ab8503"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "8901c9bd-b44c-4ddb-84cc-db7dd6a8c62c",
+        "evaluation_date": "2023-08-01T15:55:14.534Z",
+        "performance_score": 27929,
+        "created_at": "2023-08-02T03:21:24.031Z",
+        "updated_at": "2023-08-01T12:36:02.746Z",
+        "student_id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca"
+      },
+      {
+        "id": "3a76e84f-c2f3-433b-8dda-340ab7654c3c",
+        "evaluation_date": "2023-08-01T18:29:04.604Z",
+        "performance_score": 91901,
+        "created_at": "2023-08-01T14:26:55.989Z",
+        "updated_at": "2023-08-01T22:53:28.053Z",
+        "student_id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca"
+      },
+      {
+        "id": "6a83236a-bb93-449f-8ebb-038f73bb7406",
+        "evaluation_date": "2023-08-02T05:06:57.465Z",
+        "performance_score": 81081,
+        "created_at": "2023-08-02T03:19:45.479Z",
+        "updated_at": "2023-08-01T17:22:28.960Z",
+        "student_id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca"
+      },
+      {
+        "id": "f6d3f782-3f45-439b-9c11-cb91e620d640",
+        "evaluation_date": "2023-08-01T13:45:08.451Z",
+        "performance_score": 66603,
+        "created_at": "2023-08-02T08:58:37.611Z",
+        "updated_at": "2023-08-02T03:55:37.972Z",
+        "student_id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca"
+      },
+      {
+        "id": "32b1c2e4-495a-4854-a465-2f33fc786062",
+        "evaluation_date": "2023-08-02T07:03:35.835Z",
+        "performance_score": 20934,
+        "created_at": "2023-08-01T22:06:27.396Z",
+        "updated_at": "2023-08-01T20:26:35.563Z",
+        "student_id": "c1e6ad95-2772-4db2-a34d-b2d9fefbd9ca"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "5ef2d844-8fee-41fd-99ba-b7889fc6dfde",
+        "name": "Alice",
+        "created_at": "2023-08-01T12:36:27.895Z",
+        "updated_at": "2023-08-01T15:48:06.505Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "117b7cc2-b3a7-4fe3-a38c-473263c6eca0",
+        "name": "Bob",
+        "created_at": "2023-08-01T12:07:53.292Z",
+        "updated_at": "2023-08-01T22:31:59.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "445c1819-bd0f-48fa-94aa-b93424c4219c",
+        "name": "Eva",
+        "created_at": "2023-08-02T09:26:22.201Z",
+        "updated_at": "2023-08-02T04:03:52.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96481555-fe70-40a4-9f4d-5ed897e7bb2b",
+        "name": "Max",
+        "created_at": "2023-08-02T06:48:34.738Z",
+        "updated_at": "2023-08-02T03:28:37.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7321859a-2486-4f8f-91e9-3c877b402e60",
+        "name": "Lily",
+        "created_at": "2023-08-01T21:05:04.825Z",
+        "updated_at": "2023-08-02T09:46:27.826Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "89ff10a2-e394-4d36-bffc-84980100c78c",
+        "start_date": "2023-08-02T01:58:48.982Z",
+        "end_date": "2023-08-01T17:14:15.816Z",
+        "created_at": "2023-08-02T06:48:47.646Z",
+        "updated_at": "2023-08-02T05:00:37.170Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "9064de31-176c-4fa8-8792-6e108c39cb22",
+        "start_date": "2023-08-02T00:50:38.402Z",
+        "end_date": "2023-08-02T03:48:35.169Z",
+        "created_at": "2023-08-02T02:29:00.765Z",
+        "updated_at": "2023-08-01T16:11:35.011Z",
+        "student_id": "5ef2d844-8fee-41fd-99ba-b7889fc6dfde"
+      },
+      {
+        "id": "885ec816-ab7d-4478-8342-cccda168339b",
+        "start_date": "2023-08-01T21:03:43.955Z",
+        "end_date": "2023-08-02T05:37:11.294Z",
+        "created_at": "2023-08-02T06:37:33.389Z",
+        "updated_at": "2023-08-01T12:54:07.890Z",
+        "student_id": "7321859a-2486-4f8f-91e9-3c877b402e60"
+      },
+      {
+        "id": "e3071f6c-1cd9-40a1-b4ba-fab341dbf229",
+        "start_date": "2023-08-02T00:48:21.383Z",
+        "end_date": "2023-08-02T01:47:16.155Z",
+        "created_at": "2023-08-02T10:53:31.791Z",
+        "updated_at": "2023-08-01T16:16:19.010Z",
+        "student_id": "96481555-fe70-40a4-9f4d-5ed897e7bb2b"
+      },
+      {
+        "id": "b5c8b1ae-4d44-4f73-bed0-d03ad42b3c5f",
+        "start_date": "2023-08-02T07:09:55.233Z",
+        "end_date": "2023-08-01T17:27:04.338Z",
+        "created_at": "2023-08-02T07:07:07.886Z",
+        "updated_at": "2023-08-01T12:42:35.826Z",
+        "student_id": "117b7cc2-b3a7-4fe3-a38c-473263c6eca0"
+      }
+    ],
+    "marks": [
+      {
+        "id": "f2b14cdf-c97d-4a9d-a5a3-b05f2f484769",
+        "subject": "Mathematics",
+        "score": 28201,
+        "created_at": "2023-08-02T04:05:46.583Z",
+        "updated_at": "2023-08-01T22:08:00.934Z",
+        "student_id": "96481555-fe70-40a4-9f4d-5ed897e7bb2b"
+      },
+      {
+        "id": "0971b8bf-dc4d-4ae7-9d1e-5e94ee7cfef6",
+        "subject": "Science",
+        "score": 31440,
+        "created_at": "2023-08-02T07:05:40.969Z",
+        "updated_at": "2023-08-02T02:21:01.286Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "4c7e7718-f0a7-47d9-8384-26eb6aa2b38d",
+        "subject": "History",
+        "score": 56841,
+        "created_at": "2023-08-01T19:44:36.545Z",
+        "updated_at": "2023-08-01T15:18:32.229Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "4ad7bd38-8bc5-4fe6-9dea-1ed8cbc73c61",
+        "subject": "English",
+        "score": 72883,
+        "created_at": "2023-08-02T00:09:02.614Z",
+        "updated_at": "2023-08-01T17:58:27.146Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "148a31db-6bb9-4db4-a43e-4f080a570dc4",
+        "subject": "Computer Science",
+        "score": 29673,
+        "created_at": "2023-08-01T18:24:58.170Z",
+        "updated_at": "2023-08-01T14:46:07.922Z",
+        "student_id": "5ef2d844-8fee-41fd-99ba-b7889fc6dfde"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "5b4aaf93-fb0f-492a-a63e-b9ed4da59a55",
+        "evaluation_date": "2023-08-02T00:45:10.125Z",
+        "performance_score": 76262,
+        "created_at": "2023-08-02T10:32:48.908Z",
+        "updated_at": "2023-08-02T07:49:15.804Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "d484cad4-a4bf-4ec4-8809-33c722de1d4e",
+        "evaluation_date": "2023-08-02T10:24:36.101Z",
+        "performance_score": 37664,
+        "created_at": "2023-08-01T23:32:32.840Z",
+        "updated_at": "2023-08-02T09:02:00.271Z",
+        "student_id": "5ef2d844-8fee-41fd-99ba-b7889fc6dfde"
+      },
+      {
+        "id": "f1cb3499-8b30-40c1-a278-3bee79bbb763",
+        "evaluation_date": "2023-08-01T20:46:56.364Z",
+        "performance_score": 9892,
+        "created_at": "2023-08-02T04:29:33.846Z",
+        "updated_at": "2023-08-02T06:19:08.181Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      },
+      {
+        "id": "3938b578-d63a-4ae5-9242-d034d0afa931",
+        "evaluation_date": "2023-08-02T09:59:22.222Z",
+        "performance_score": 43786,
+        "created_at": "2023-08-02T00:26:33.979Z",
+        "updated_at": "2023-08-02T08:21:04.008Z",
+        "student_id": "96481555-fe70-40a4-9f4d-5ed897e7bb2b"
+      },
+      {
+        "id": "550eb76a-2322-4f55-a642-a64608da7c91",
+        "evaluation_date": "2023-08-02T09:45:31.855Z",
+        "performance_score": 72880,
+        "created_at": "2023-08-01T15:12:32.312Z",
+        "updated_at": "2023-08-01T21:46:09.941Z",
+        "student_id": "445c1819-bd0f-48fa-94aa-b93424c4219c"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "d0e0c9f0-460a-499d-adda-9aa5128bcac3",
+        "name": "Alice",
+        "created_at": "2023-08-01T21:31:19.439Z",
+        "updated_at": "2023-08-01T22:28:42.932Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36385e1c-05a7-4b90-895f-255c089d08e5",
+        "name": "Bob",
+        "created_at": "2023-08-01T21:20:04.165Z",
+        "updated_at": "2023-08-01T16:32:21.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d10e0b0-7663-44a0-af51-a827592782a2",
+        "name": "Eva",
+        "created_at": "2023-08-01T12:10:11.750Z",
+        "updated_at": "2023-08-02T10:31:32.141Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eb82e4e-c4fb-4e05-a1f9-26fdc9ed63dc",
+        "name": "Max",
+        "created_at": "2023-08-02T00:32:21.468Z",
+        "updated_at": "2023-08-02T07:15:24.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46426468-06ab-45ad-8b48-6c27b92bcd94",
+        "name": "Lily",
+        "created_at": "2023-08-01T16:46:25.555Z",
+        "updated_at": "2023-08-01T22:50:10.310Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "ad383509-efbb-4c17-a47e-5794450134a1",
+        "start_date": "2023-08-02T06:20:44.875Z",
+        "end_date": "2023-08-01T17:34:49.943Z",
+        "created_at": "2023-08-02T02:15:27.856Z",
+        "updated_at": "2023-08-01T21:12:39.917Z",
+        "student_id": "36385e1c-05a7-4b90-895f-255c089d08e5"
+      },
+      {
+        "id": "3915df49-dbf6-4f1c-937e-7132e6344f5e",
+        "start_date": "2023-08-01T23:06:27.954Z",
+        "end_date": "2023-08-01T17:31:41.592Z",
+        "created_at": "2023-08-01T17:44:47.398Z",
+        "updated_at": "2023-08-01T16:12:00.075Z",
+        "student_id": "0eb82e4e-c4fb-4e05-a1f9-26fdc9ed63dc"
+      },
+      {
+        "id": "b5e22d01-a98b-40ac-a666-cb9ce3b86121",
+        "start_date": "2023-08-02T03:14:59.159Z",
+        "end_date": "2023-08-02T05:29:35.445Z",
+        "created_at": "2023-08-01T12:08:44.988Z",
+        "updated_at": "2023-08-02T08:46:13.095Z",
+        "student_id": "d0e0c9f0-460a-499d-adda-9aa5128bcac3"
+      },
+      {
+        "id": "27b8a96d-2360-4289-8b3c-1586b9bfe973",
+        "start_date": "2023-08-01T19:00:06.692Z",
+        "end_date": "2023-08-01T18:18:36.757Z",
+        "created_at": "2023-08-01T23:39:24.880Z",
+        "updated_at": "2023-08-02T07:32:36.323Z",
+        "student_id": "36385e1c-05a7-4b90-895f-255c089d08e5"
+      },
+      {
+        "id": "8c0077ab-176d-4337-89f4-713575a807d5",
+        "start_date": "2023-08-01T13:43:06.437Z",
+        "end_date": "2023-08-01T16:24:38.075Z",
+        "created_at": "2023-08-01T14:46:37.873Z",
+        "updated_at": "2023-08-02T11:04:48.566Z",
+        "student_id": "36385e1c-05a7-4b90-895f-255c089d08e5"
+      }
+    ],
+    "marks": [
+      {
+        "id": "7c23dad6-538b-45ab-91da-af4ee67e2eef",
+        "subject": "Mathematics",
+        "score": 80436,
+        "created_at": "2023-08-01T21:54:19.212Z",
+        "updated_at": "2023-08-01T19:50:00.476Z",
+        "student_id": "46426468-06ab-45ad-8b48-6c27b92bcd94"
+      },
+      {
+        "id": "acb42a98-80c0-4ea0-911f-b48c2a4ae4a7",
+        "subject": "Science",
+        "score": 16724,
+        "created_at": "2023-08-01T20:02:28.655Z",
+        "updated_at": "2023-08-01T13:49:15.996Z",
+        "student_id": "d0e0c9f0-460a-499d-adda-9aa5128bcac3"
+      },
+      {
+        "id": "97cff489-f6ee-401f-9f5d-585331c4934f",
+        "subject": "History",
+        "score": 25306,
+        "created_at": "2023-08-02T00:59:49.901Z",
+        "updated_at": "2023-08-02T02:08:07.639Z",
+        "student_id": "46426468-06ab-45ad-8b48-6c27b92bcd94"
+      },
+      {
+        "id": "4e110ba5-0e8a-4373-810d-8eb6e5cfa571",
+        "subject": "English",
+        "score": 94260,
+        "created_at": "2023-08-01T16:25:20.683Z",
+        "updated_at": "2023-08-02T03:35:58.635Z",
+        "student_id": "d0e0c9f0-460a-499d-adda-9aa5128bcac3"
+      },
+      {
+        "id": "052e400e-a4c9-4437-9f0f-9f77883b10e6",
+        "subject": "Computer Science",
+        "score": 50072,
+        "created_at": "2023-08-01T20:08:26.718Z",
+        "updated_at": "2023-08-01T16:19:44.678Z",
+        "student_id": "8d10e0b0-7663-44a0-af51-a827592782a2"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "814e0935-b3bc-4e29-88fe-071bafe7f323",
+        "evaluation_date": "2023-08-02T02:28:48.475Z",
+        "performance_score": 78027,
+        "created_at": "2023-08-02T08:51:35.661Z",
+        "updated_at": "2023-08-01T14:13:32.764Z",
+        "student_id": "0eb82e4e-c4fb-4e05-a1f9-26fdc9ed63dc"
+      },
+      {
+        "id": "44190012-b651-45ca-9d07-c7954023f273",
+        "evaluation_date": "2023-08-02T08:27:11.258Z",
+        "performance_score": 61959,
+        "created_at": "2023-08-01T21:13:24.416Z",
+        "updated_at": "2023-08-01T12:17:30.150Z",
+        "student_id": "0eb82e4e-c4fb-4e05-a1f9-26fdc9ed63dc"
+      },
+      {
+        "id": "d5d8efc5-4de9-4591-88a1-a8a2fa7e2da7",
+        "evaluation_date": "2023-08-02T05:51:07.425Z",
+        "performance_score": 96385,
+        "created_at": "2023-08-02T00:44:08.852Z",
+        "updated_at": "2023-08-01T13:37:50.277Z",
+        "student_id": "46426468-06ab-45ad-8b48-6c27b92bcd94"
+      },
+      {
+        "id": "82c130e1-15d7-4f21-bb53-7313cce6f75e",
+        "evaluation_date": "2023-08-02T11:29:37.481Z",
+        "performance_score": 82946,
+        "created_at": "2023-08-01T17:57:55.145Z",
+        "updated_at": "2023-08-01T20:17:37.633Z",
+        "student_id": "46426468-06ab-45ad-8b48-6c27b92bcd94"
+      },
+      {
+        "id": "aa584aad-dc49-4b66-9faf-dc20830fd766",
+        "evaluation_date": "2023-08-02T09:44:41.579Z",
+        "performance_score": 55931,
+        "created_at": "2023-08-02T08:14:53.506Z",
+        "updated_at": "2023-08-02T04:01:28.280Z",
+        "student_id": "36385e1c-05a7-4b90-895f-255c089d08e5"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "2dc66087-3ac2-4f7d-88d5-80c9ea399782",
+        "name": "Alice",
+        "created_at": "2023-08-02T03:11:01.985Z",
+        "updated_at": "2023-08-02T04:05:36.157Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcde48a0-adac-479a-95b3-8238aae3d12b",
+        "name": "Bob",
+        "created_at": "2023-08-02T07:53:59.709Z",
+        "updated_at": "2023-08-01T17:56:54.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2397247-a279-46cf-baa2-983aac7597c9",
+        "name": "Charlie",
+        "created_at": "2023-08-02T06:08:21.943Z",
+        "updated_at": "2023-08-01T14:30:36.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a34c91a5-1f69-48f5-bf5e-de527d5031b7",
+        "name": "Eve",
+        "created_at": "2023-08-02T01:20:21.486Z",
+        "updated_at": "2023-08-01T17:01:09.221Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "796074b7-3f40-4674-81a7-40b604a8de64",
+        "name": "Frank",
+        "created_at": "2023-08-02T00:20:53.081Z",
+        "updated_at": "2023-08-01T18:13:09.320Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "63474737-deb2-4300-9216-f7cd6cc7189e",
+        "start_date": "2023-08-01T18:04:10.394Z",
+        "end_date": "2023-08-02T08:55:09.378Z",
+        "created_at": "2023-08-02T09:50:41.359Z",
+        "updated_at": "2023-08-01T15:19:08.363Z",
+        "student_id": "2dc66087-3ac2-4f7d-88d5-80c9ea399782"
+      },
+      {
+        "id": "961eb756-c0bd-4b0c-b675-81a484fcf49f",
+        "start_date": "2023-08-02T06:34:58.887Z",
+        "end_date": "2023-08-02T05:12:24.299Z",
+        "created_at": "2023-08-01T16:26:12.951Z",
+        "updated_at": "2023-08-01T15:34:55.564Z",
+        "student_id": "d2397247-a279-46cf-baa2-983aac7597c9"
+      },
+      {
+        "id": "f51325a2-df78-45b6-b6a3-a990de3c79ef",
+        "start_date": "2023-08-01T19:35:40.122Z",
+        "end_date": "2023-08-01T17:28:14.252Z",
+        "created_at": "2023-08-01T20:14:27.256Z",
+        "updated_at": "2023-08-02T10:57:35.262Z",
+        "student_id": "bcde48a0-adac-479a-95b3-8238aae3d12b"
+      },
+      {
+        "id": "bac6f97b-e77b-429c-9674-82a581128f97",
+        "start_date": "2023-08-02T00:39:12.596Z",
+        "end_date": "2023-08-01T20:05:11.621Z",
+        "created_at": "2023-08-01T22:27:06.314Z",
+        "updated_at": "2023-08-01T14:01:40.803Z",
+        "student_id": "2dc66087-3ac2-4f7d-88d5-80c9ea399782"
+      },
+      {
+        "id": "c1616a0c-b89d-4025-9544-528b02f9a29a",
+        "start_date": "2023-08-02T10:10:55.093Z",
+        "end_date": "2023-08-02T10:37:39.855Z",
+        "created_at": "2023-08-02T00:29:34.453Z",
+        "updated_at": "2023-08-01T13:29:43.636Z",
+        "student_id": "796074b7-3f40-4674-81a7-40b604a8de64"
+      }
+    ],
+    "marks": [
+      {
+        "id": "71e93d7d-2755-4af5-8576-f6849d366440",
+        "subject": "Mathematics",
+        "score": 99732,
+        "created_at": "2023-08-01T13:41:33.896Z",
+        "updated_at": "2023-08-01T17:19:47.477Z",
+        "student_id": "bcde48a0-adac-479a-95b3-8238aae3d12b"
+      },
+      {
+        "id": "2f2ee4ca-97b6-42d1-ad63-bc0e1bb5843a",
+        "subject": "Science",
+        "score": 99262,
+        "created_at": "2023-08-01T23:27:10.315Z",
+        "updated_at": "2023-08-02T02:32:26.570Z",
+        "student_id": "796074b7-3f40-4674-81a7-40b604a8de64"
+      },
+      {
+        "id": "55b0a7f1-bc87-4772-be4b-745e3e021719",
+        "subject": "History",
+        "score": 26271,
+        "created_at": "2023-08-01T21:17:25.612Z",
+        "updated_at": "2023-08-01T19:58:24.517Z",
+        "student_id": "a34c91a5-1f69-48f5-bf5e-de527d5031b7"
+      },
+      {
+        "id": "5b487411-f4d1-4ac3-8600-3ada8d4a3f8f",
+        "subject": "English",
+        "score": 2167,
+        "created_at": "2023-08-02T10:08:31.041Z",
+        "updated_at": "2023-08-01T19:25:42.075Z",
+        "student_id": "796074b7-3f40-4674-81a7-40b604a8de64"
+      },
+      {
+        "id": "135ca334-6d35-4f37-b7fa-e8b0e4a003ae",
+        "subject": "Computer Science",
+        "score": 26118,
+        "created_at": "2023-08-02T11:44:32.231Z",
+        "updated_at": "2023-08-02T11:07:39.929Z",
+        "student_id": "bcde48a0-adac-479a-95b3-8238aae3d12b"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "f75f7b21-2b87-453f-bd2a-e90c1b7e9afe",
+        "evaluation_date": "2023-08-01T17:28:13.731Z",
+        "performance_score": 17561,
+        "created_at": "2023-08-01T20:04:19.321Z",
+        "updated_at": "2023-08-01T19:38:05.343Z",
+        "student_id": "796074b7-3f40-4674-81a7-40b604a8de64"
+      },
+      {
+        "id": "508d0720-e6d4-4316-9d18-5327d727167b",
+        "evaluation_date": "2023-08-02T10:41:33.818Z",
+        "performance_score": 91332,
+        "created_at": "2023-08-02T10:01:21.295Z",
+        "updated_at": "2023-08-02T09:14:41.560Z",
+        "student_id": "796074b7-3f40-4674-81a7-40b604a8de64"
+      },
+      {
+        "id": "7fde0c3f-2a15-466a-9b3f-d6759b2c5a38",
+        "evaluation_date": "2023-08-02T01:15:11.017Z",
+        "performance_score": 81690,
+        "created_at": "2023-08-02T08:42:15.688Z",
+        "updated_at": "2023-08-01T18:59:12.383Z",
+        "student_id": "2dc66087-3ac2-4f7d-88d5-80c9ea399782"
+      },
+      {
+        "id": "0f7b34b2-8efe-4651-8491-06a626378a54",
+        "evaluation_date": "2023-08-01T18:15:43.995Z",
+        "performance_score": 16482,
+        "created_at": "2023-08-01T16:35:46.756Z",
+        "updated_at": "2023-08-02T08:32:03.100Z",
+        "student_id": "d2397247-a279-46cf-baa2-983aac7597c9"
+      },
+      {
+        "id": "37f758cb-8595-4521-8dc9-2c36e1134c46",
+        "evaluation_date": "2023-08-02T09:08:01.258Z",
+        "performance_score": 16768,
+        "created_at": "2023-08-01T14:32:48.213Z",
+        "updated_at": "2023-08-02T08:46:37.466Z",
+        "student_id": "a34c91a5-1f69-48f5-bf5e-de527d5031b7"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "53e8dc8d-945a-4f69-a1d6-a98d3c8acd22",
+        "name": "Alice",
+        "created_at": "2023-08-01T18:01:25.495Z",
+        "updated_at": "2023-08-02T07:32:47.040Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2b3a6c0-ef8e-4685-8fa5-c0c8aef8ee3a",
+        "name": "Bob",
+        "created_at": "2023-08-02T06:11:00.816Z",
+        "updated_at": "2023-08-01T23:35:01.210Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "693afb1c-0d94-46d6-a782-c9eddd63403c",
+        "name": "Eva",
+        "created_at": "2023-08-02T09:16:52.436Z",
+        "updated_at": "2023-08-02T03:00:02.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4905ff66-e62d-4eb1-a7de-987cb158959b",
+        "name": "Max",
+        "created_at": "2023-08-01T22:35:46.220Z",
+        "updated_at": "2023-08-02T11:42:34.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6767cac-cd0c-494a-ab2a-bd53cb6aa984",
+        "name": "Lily",
+        "created_at": "2023-08-01T23:14:05.657Z",
+        "updated_at": "2023-08-02T06:01:00.299Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "1ee21980-5a89-4174-8535-2737ec6c3c9f",
+        "start_date": "2023-08-02T08:58:26.136Z",
+        "end_date": "2023-08-02T05:31:50.696Z",
+        "created_at": "2023-08-01T21:04:05.909Z",
+        "updated_at": "2023-08-02T09:57:59.791Z",
+        "student_id": "53e8dc8d-945a-4f69-a1d6-a98d3c8acd22"
+      },
+      {
+        "id": "26fe16ef-6ddb-4471-afba-1ec79f2aaea6",
+        "start_date": "2023-08-02T01:43:38.603Z",
+        "end_date": "2023-08-01T14:50:08.248Z",
+        "created_at": "2023-08-02T10:01:17.698Z",
+        "updated_at": "2023-08-01T16:23:28.762Z",
+        "student_id": "53e8dc8d-945a-4f69-a1d6-a98d3c8acd22"
+      },
+      {
+        "id": "8d8be152-deac-4977-8753-dbb95db0bb74",
+        "start_date": "2023-08-01T19:58:06.210Z",
+        "end_date": "2023-08-02T03:24:29.807Z",
+        "created_at": "2023-08-02T01:08:34.045Z",
+        "updated_at": "2023-08-02T08:18:13.570Z",
+        "student_id": "693afb1c-0d94-46d6-a782-c9eddd63403c"
+      },
+      {
+        "id": "1d1412ee-bde5-4481-a02d-90cb02a54e15",
+        "start_date": "2023-08-01T15:43:35.091Z",
+        "end_date": "2023-08-02T05:27:03.759Z",
+        "created_at": "2023-08-02T04:26:33.950Z",
+        "updated_at": "2023-08-01T17:32:26.534Z",
+        "student_id": "a6767cac-cd0c-494a-ab2a-bd53cb6aa984"
+      },
+      {
+        "id": "43c79ac4-604b-4a26-ba02-5f9ec3c4eee0",
+        "start_date": "2023-08-01T13:53:19.567Z",
+        "end_date": "2023-08-01T18:21:38.097Z",
+        "created_at": "2023-08-01T17:01:39.399Z",
+        "updated_at": "2023-08-02T05:47:50.715Z",
+        "student_id": "693afb1c-0d94-46d6-a782-c9eddd63403c"
+      }
+    ],
+    "marks": [
+      {
+        "id": "8b689997-4c83-4c08-850d-f79e80145b00",
+        "subject": "Mathematics",
+        "score": 35258,
+        "created_at": "2023-08-02T08:45:42.741Z",
+        "updated_at": "2023-08-02T09:23:33.854Z",
+        "student_id": "a6767cac-cd0c-494a-ab2a-bd53cb6aa984"
+      },
+      {
+        "id": "49eeaa5e-d630-4512-9768-828574bdfc2f",
+        "subject": "Science",
+        "score": 85192,
+        "created_at": "2023-08-01T16:18:02.407Z",
+        "updated_at": "2023-08-02T00:49:04.615Z",
+        "student_id": "4905ff66-e62d-4eb1-a7de-987cb158959b"
+      },
+      {
+        "id": "9e96e8d4-d057-443d-8234-c7c3180daf4c",
+        "subject": "History",
+        "score": 73462,
+        "created_at": "2023-08-01T17:12:59.075Z",
+        "updated_at": "2023-08-02T09:57:42.119Z",
+        "student_id": "693afb1c-0d94-46d6-a782-c9eddd63403c"
+      },
+      {
+        "id": "842ed0f6-ab3e-45c0-8a1d-4871c8415d18",
+        "subject": "English",
+        "score": 61735,
+        "created_at": "2023-08-01T12:22:46.025Z",
+        "updated_at": "2023-08-01T23:50:07.385Z",
+        "student_id": "53e8dc8d-945a-4f69-a1d6-a98d3c8acd22"
+      },
+      {
+        "id": "fcefa1d5-9650-4dfd-93fb-a07535ba4fa5",
+        "subject": "Physics",
+        "score": 37657,
+        "created_at": "2023-08-01T21:36:04.982Z",
+        "updated_at": "2023-08-02T00:35:56.291Z",
+        "student_id": "4905ff66-e62d-4eb1-a7de-987cb158959b"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "92d850b9-81f3-48ed-a21e-07313e450bcf",
+        "evaluation_date": "2023-08-02T11:53:29.496Z",
+        "performance_score": 64828,
+        "created_at": "2023-08-01T13:34:59.891Z",
+        "updated_at": "2023-08-01T15:24:56.940Z",
+        "student_id": "4905ff66-e62d-4eb1-a7de-987cb158959b"
+      },
+      {
+        "id": "f1ed68a0-5f6a-4545-a3ec-83f9ad5aac8a",
+        "evaluation_date": "2023-08-01T16:12:38.300Z",
+        "performance_score": 51630,
+        "created_at": "2023-08-01T21:54:36.851Z",
+        "updated_at": "2023-08-01T21:09:08.813Z",
+        "student_id": "a6767cac-cd0c-494a-ab2a-bd53cb6aa984"
+      },
+      {
+        "id": "bdf58f8a-a8fa-4284-bc0a-6b6a9b230684",
+        "evaluation_date": "2023-08-02T00:41:47.255Z",
+        "performance_score": 70570,
+        "created_at": "2023-08-01T20:50:49.944Z",
+        "updated_at": "2023-08-02T04:26:08.553Z",
+        "student_id": "53e8dc8d-945a-4f69-a1d6-a98d3c8acd22"
+      },
+      {
+        "id": "44422784-cdab-4008-95b7-7733ffe5c3d0",
+        "evaluation_date": "2023-08-02T11:38:40.179Z",
+        "performance_score": 38163,
+        "created_at": "2023-08-02T11:21:13.641Z",
+        "updated_at": "2023-08-01T21:24:30.707Z",
+        "student_id": "4905ff66-e62d-4eb1-a7de-987cb158959b"
+      },
+      {
+        "id": "33f63966-b04f-43ac-952d-95eedc18e382",
+        "evaluation_date": "2023-08-02T08:57:14.997Z",
+        "performance_score": 16478,
+        "created_at": "2023-08-01T18:10:51.501Z",
+        "updated_at": "2023-08-01T16:39:35.404Z",
+        "student_id": "f2b3a6c0-ef8e-4685-8fa5-c0c8aef8ee3a"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "adbdab50-5305-47bb-87d6-2d6bb422131b",
+        "name": "Alice",
+        "created_at": "2023-08-02T02:26:32.120Z",
+        "updated_at": "2023-08-02T04:14:03.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44ab9a59-7a68-4e09-9bd7-948e4e81ef6c",
+        "name": "Bob",
+        "created_at": "2023-08-01T12:41:01.473Z",
+        "updated_at": "2023-08-02T08:27:22.422Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2de90ca-9435-4570-99da-b806c2b3b677",
+        "name": "Eva",
+        "created_at": "2023-08-01T22:26:30.817Z",
+        "updated_at": "2023-08-02T11:16:43.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcfe039d-e311-4f82-ac65-5be120818cb1",
+        "name": "Max",
+        "created_at": "2023-08-01T23:11:23.570Z",
+        "updated_at": "2023-08-01T22:40:18.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e424f2e6-5f2e-4913-a3d3-f645931a7b13",
+        "name": "Lily",
+        "created_at": "2023-08-01T22:04:09.598Z",
+        "updated_at": "2023-08-02T03:20:45.674Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "a005e244-4073-464c-90bb-5c7a9fd837ed",
+        "start_date": "2023-08-01T16:56:27.464Z",
+        "end_date": "2023-08-01T20:31:40.692Z",
+        "created_at": "2023-08-01T14:06:39.358Z",
+        "updated_at": "2023-08-02T10:45:26.105Z",
+        "student_id": "44ab9a59-7a68-4e09-9bd7-948e4e81ef6c"
+      },
+      {
+        "id": "44f1141a-afd1-49ad-be11-0c428f0034cc",
+        "start_date": "2023-08-01T15:32:49.120Z",
+        "end_date": "2023-08-02T05:27:07.877Z",
+        "created_at": "2023-08-02T01:01:36.678Z",
+        "updated_at": "2023-08-02T05:12:22.230Z",
+        "student_id": "f2de90ca-9435-4570-99da-b806c2b3b677"
+      },
+      {
+        "id": "c38a43b2-2717-4806-837d-3b4b8142bcd4",
+        "start_date": "2023-08-01T16:07:30.516Z",
+        "end_date": "2023-08-01T18:23:44.512Z",
+        "created_at": "2023-08-02T00:42:40.522Z",
+        "updated_at": "2023-08-01T15:05:31.307Z",
+        "student_id": "e424f2e6-5f2e-4913-a3d3-f645931a7b13"
+      },
+      {
+        "id": "9e5362e3-9104-427f-848f-d2f785194bdd",
+        "start_date": "2023-08-01T18:58:12.914Z",
+        "end_date": "2023-08-02T04:35:00.834Z",
+        "created_at": "2023-08-02T10:55:27.267Z",
+        "updated_at": "2023-08-01T18:31:47.200Z",
+        "student_id": "f2de90ca-9435-4570-99da-b806c2b3b677"
+      },
+      {
+        "id": "c374a9b1-ee3b-4eb2-8fd7-1b3459645d47",
+        "start_date": "2023-08-02T03:37:24.449Z",
+        "end_date": "2023-08-02T06:42:58.346Z",
+        "created_at": "2023-08-02T02:44:55.912Z",
+        "updated_at": "2023-08-02T06:17:46.839Z",
+        "student_id": "dcfe039d-e311-4f82-ac65-5be120818cb1"
+      }
+    ],
+    "marks": [
+      {
+        "id": "637ed6d1-c5e8-4613-8d72-bf5a40d386d8",
+        "subject": "Mathematics",
+        "score": 12271,
+        "created_at": "2023-08-01T18:20:32.144Z",
+        "updated_at": "2023-08-01T16:09:26.427Z",
+        "student_id": "f2de90ca-9435-4570-99da-b806c2b3b677"
+      },
+      {
+        "id": "e24c7375-aa29-400f-9b98-ed73e2c9c5f5",
+        "subject": "Science",
+        "score": 23480,
+        "created_at": "2023-08-02T09:28:43.984Z",
+        "updated_at": "2023-08-01T12:13:09.155Z",
+        "student_id": "dcfe039d-e311-4f82-ac65-5be120818cb1"
+      },
+      {
+        "id": "cf42a09e-7240-485c-9fd2-eeeb1464e8ff",
+        "subject": "History",
+        "score": 89983,
+        "created_at": "2023-08-01T18:03:28.750Z",
+        "updated_at": "2023-08-02T11:15:09.921Z",
+        "student_id": "adbdab50-5305-47bb-87d6-2d6bb422131b"
+      },
+      {
+        "id": "8c79db98-237b-43ff-b7c4-3c968e8cb683",
+        "subject": "English",
+        "score": 75417,
+        "created_at": "2023-08-02T09:17:18.543Z",
+        "updated_at": "2023-08-01T21:39:16.559Z",
+        "student_id": "f2de90ca-9435-4570-99da-b806c2b3b677"
+      },
+      {
+        "id": "1b63237f-ce1f-4a86-87a1-62f43764d97b",
+        "subject": "Physics",
+        "score": 19236,
+        "created_at": "2023-08-01T15:30:06.764Z",
+        "updated_at": "2023-08-01T14:13:08.544Z",
+        "student_id": "44ab9a59-7a68-4e09-9bd7-948e4e81ef6c"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "6f74a21e-994f-4a71-99ce-c50b4e1e5802",
+        "evaluation_date": "2023-08-01T16:53:42.800Z",
+        "performance_score": 15778,
+        "created_at": "2023-08-01T15:37:22.889Z",
+        "updated_at": "2023-08-01T21:03:54.396Z",
+        "student_id": "f2de90ca-9435-4570-99da-b806c2b3b677"
+      },
+      {
+        "id": "2d0116a6-d541-4ae6-9278-a0f379be5b94",
+        "evaluation_date": "2023-08-02T01:05:12.258Z",
+        "performance_score": 72416,
+        "created_at": "2023-08-01T22:32:35.552Z",
+        "updated_at": "2023-08-01T21:29:38.247Z",
+        "student_id": "e424f2e6-5f2e-4913-a3d3-f645931a7b13"
+      },
+      {
+        "id": "b7044758-e093-4d9c-bb01-8605c33c0a00",
+        "evaluation_date": "2023-08-02T03:32:14.923Z",
+        "performance_score": 18057,
+        "created_at": "2023-08-01T17:36:42.220Z",
+        "updated_at": "2023-08-02T09:09:59.409Z",
+        "student_id": "adbdab50-5305-47bb-87d6-2d6bb422131b"
+      },
+      {
+        "id": "1ccc752c-d9bf-49e1-b936-0c03aa7bdf3f",
+        "evaluation_date": "2023-08-02T01:58:30.697Z",
+        "performance_score": 93936,
+        "created_at": "2023-08-01T17:44:13.563Z",
+        "updated_at": "2023-08-01T23:23:21.231Z",
+        "student_id": "dcfe039d-e311-4f82-ac65-5be120818cb1"
+      },
+      {
+        "id": "7ed06ad3-0782-4796-ba3c-a2be25fd1b81",
+        "evaluation_date": "2023-08-01T22:30:28.097Z",
+        "performance_score": 54875,
+        "created_at": "2023-08-01T13:13:08.865Z",
+        "updated_at": "2023-08-01T14:04:57.665Z",
+        "student_id": "e424f2e6-5f2e-4913-a3d3-f645931a7b13"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "c66bb596-ebf1-482c-a644-bef69d675573",
+        "name": "Alice",
+        "created_at": "2023-08-02T11:21:27.444Z",
+        "updated_at": "2023-08-01T15:17:23.807Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52686310-b18e-45a8-b910-52bf08e86ad8",
+        "name": "Bob",
+        "created_at": "2023-08-02T05:38:24.287Z",
+        "updated_at": "2023-08-01T17:00:35.563Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be399765-f61d-41ac-99d8-53bd59c250d4",
+        "name": "Eva",
+        "created_at": "2023-08-01T18:12:32.649Z",
+        "updated_at": "2023-08-02T10:18:06.969Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a37ec66-4405-48b4-bbd2-0e9d7ac73683",
+        "name": "Max",
+        "created_at": "2023-08-02T00:21:46.500Z",
+        "updated_at": "2023-08-01T17:10:59.937Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c43f040-feaf-480b-ad45-1e31a0dcd662",
+        "name": "Lily",
+        "created_at": "2023-08-02T07:50:27.881Z",
+        "updated_at": "2023-08-02T01:46:23.581Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "12096646-305a-42e7-9b33-695d5be18d75",
+        "start_date": "2023-08-02T11:51:50.289Z",
+        "end_date": "2023-08-02T05:20:15.628Z",
+        "created_at": "2023-08-01T14:51:43.148Z",
+        "updated_at": "2023-08-01T14:48:56.386Z",
+        "student_id": "6c43f040-feaf-480b-ad45-1e31a0dcd662"
+      },
+      {
+        "id": "d0614213-82ca-463a-b79d-7fd2e07e15e1",
+        "start_date": "2023-08-02T00:03:07.682Z",
+        "end_date": "2023-08-02T09:57:25.967Z",
+        "created_at": "2023-08-02T05:01:23.390Z",
+        "updated_at": "2023-08-01T15:34:03.602Z",
+        "student_id": "5a37ec66-4405-48b4-bbd2-0e9d7ac73683"
+      },
+      {
+        "id": "024a7da3-5347-496a-aad7-2da815c184ee",
+        "start_date": "2023-08-02T08:09:57.593Z",
+        "end_date": "2023-08-01T17:14:47.630Z",
+        "created_at": "2023-08-01T18:35:02.904Z",
+        "updated_at": "2023-08-02T06:10:23.226Z",
+        "student_id": "c66bb596-ebf1-482c-a644-bef69d675573"
+      },
+      {
+        "id": "fe4ba686-bb7c-4a59-b080-74b4282e3843",
+        "start_date": "2023-08-02T01:13:05.843Z",
+        "end_date": "2023-08-02T01:43:25.870Z",
+        "created_at": "2023-08-01T21:01:04.998Z",
+        "updated_at": "2023-08-01T19:40:21.496Z",
+        "student_id": "be399765-f61d-41ac-99d8-53bd59c250d4"
+      },
+      {
+        "id": "9bd876c3-1af3-4d2a-a90b-d442f7e0ddba",
+        "start_date": "2023-08-02T00:44:43.253Z",
+        "end_date": "2023-08-01T14:51:07.668Z",
+        "created_at": "2023-08-01T12:09:56.974Z",
+        "updated_at": "2023-08-02T03:12:01.231Z",
+        "student_id": "6c43f040-feaf-480b-ad45-1e31a0dcd662"
+      }
+    ],
+    "marks": [
+      {
+        "id": "e5a8a086-4ba8-4685-91d5-7904f42acb52",
+        "subject": "Mathematics",
+        "score": 34172,
+        "created_at": "2023-08-02T02:37:26.218Z",
+        "updated_at": "2023-08-02T03:14:10.302Z",
+        "student_id": "be399765-f61d-41ac-99d8-53bd59c250d4"
+      },
+      {
+        "id": "89c15862-b160-40d9-a3b1-783e0301ebc4",
+        "subject": "Science",
+        "score": 15071,
+        "created_at": "2023-08-01T20:22:04.005Z",
+        "updated_at": "2023-08-02T11:24:02.838Z",
+        "student_id": "c66bb596-ebf1-482c-a644-bef69d675573"
+      },
+      {
+        "id": "c44b3a3e-a639-48fe-8989-35d905ea031a",
+        "subject": "History",
+        "score": 43624,
+        "created_at": "2023-08-01T22:35:27.192Z",
+        "updated_at": "2023-08-02T07:06:40.993Z",
+        "student_id": "be399765-f61d-41ac-99d8-53bd59c250d4"
+      },
+      {
+        "id": "7156d1b6-bc62-40a7-99f4-a2620e0eef5c",
+        "subject": "English",
+        "score": 7421,
+        "created_at": "2023-08-01T18:03:30.089Z",
+        "updated_at": "2023-08-02T01:39:52.521Z",
+        "student_id": "5a37ec66-4405-48b4-bbd2-0e9d7ac73683"
+      },
+      {
+        "id": "02b0d145-3bf4-41d2-8dd0-1c749a1d8aa2",
+        "subject": "Geography",
+        "score": 39601,
+        "created_at": "2023-08-01T21:07:34.056Z",
+        "updated_at": "2023-08-01T23:54:08.611Z",
+        "student_id": "c66bb596-ebf1-482c-a644-bef69d675573"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "6c3a2052-222a-4eea-8427-7ec74d851144",
+        "evaluation_date": "2023-08-02T04:15:25.926Z",
+        "performance_score": 56791,
+        "created_at": "2023-08-02T07:55:00.545Z",
+        "updated_at": "2023-08-01T17:57:59.996Z",
+        "student_id": "6c43f040-feaf-480b-ad45-1e31a0dcd662"
+      },
+      {
+        "id": "7adce5c6-5c55-4b67-8445-5b52ac52a6b4",
+        "evaluation_date": "2023-08-02T01:03:40.659Z",
+        "performance_score": 64605,
+        "created_at": "2023-08-02T03:58:24.500Z",
+        "updated_at": "2023-08-01T18:14:53.539Z",
+        "student_id": "be399765-f61d-41ac-99d8-53bd59c250d4"
+      },
+      {
+        "id": "ae0aee0d-ecc4-4a78-b021-023229dd86e7",
+        "evaluation_date": "2023-08-02T00:00:12.275Z",
+        "performance_score": 73256,
+        "created_at": "2023-08-02T04:45:31.191Z",
+        "updated_at": "2023-08-01T22:10:53.752Z",
+        "student_id": "be399765-f61d-41ac-99d8-53bd59c250d4"
+      },
+      {
+        "id": "60f41035-7e14-4efd-aba0-6216c26888be",
+        "evaluation_date": "2023-08-02T07:59:05.173Z",
+        "performance_score": 92744,
+        "created_at": "2023-08-01T19:29:33.984Z",
+        "updated_at": "2023-08-01T13:19:52.320Z",
+        "student_id": "5a37ec66-4405-48b4-bbd2-0e9d7ac73683"
+      },
+      {
+        "id": "66e8889c-b288-4254-97d4-9206232e8534",
+        "evaluation_date": "2023-08-01T20:05:43.448Z",
+        "performance_score": 80080,
+        "created_at": "2023-08-01T15:45:53.930Z",
+        "updated_at": "2023-08-02T08:17:00.621Z",
+        "student_id": "c66bb596-ebf1-482c-a644-bef69d675573"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "38811a77-dbe7-40df-af9d-cd9214ac89a6",
+        "name": "Alice",
+        "created_at": "2023-08-02T03:55:27.795Z",
+        "updated_at": "2023-08-02T01:19:24.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "803c6314-0c17-4b97-8ae7-0ba12d92734a",
+        "name": "Bob",
+        "created_at": "2023-08-02T02:26:19.888Z",
+        "updated_at": "2023-08-01T18:24:10.072Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9052b7e3-1041-4ebd-9590-31ae2fac72f0",
+        "name": "Eva",
+        "created_at": "2023-08-01T13:16:44.765Z",
+        "updated_at": "2023-08-02T02:26:29.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea44b788-604e-4aba-a825-c577f916b75c",
+        "name": "Max",
+        "created_at": "2023-08-01T23:09:34.142Z",
+        "updated_at": "2023-08-02T05:04:04.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d2a499c-5d37-4eb2-9e1c-c6f969120dff",
+        "name": "Lily",
+        "created_at": "2023-08-01T22:46:10.152Z",
+        "updated_at": "2023-08-01T22:37:44.036Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "b1fce099-7283-4fbe-80f6-eeed8bb94a31",
+        "start_date": "2023-08-01T12:16:40.981Z",
+        "end_date": "2023-08-01T22:17:30.853Z",
+        "created_at": "2023-08-01T14:34:57.693Z",
+        "updated_at": "2023-08-02T10:14:38.150Z",
+        "student_id": "9d2a499c-5d37-4eb2-9e1c-c6f969120dff"
+      },
+      {
+        "id": "430ed234-121d-4747-bc92-8812576db3e5",
+        "start_date": "2023-08-02T04:05:19.890Z",
+        "end_date": "2023-08-02T07:30:28.550Z",
+        "created_at": "2023-08-01T15:51:49.890Z",
+        "updated_at": "2023-08-02T02:07:01.513Z",
+        "student_id": "9d2a499c-5d37-4eb2-9e1c-c6f969120dff"
+      },
+      {
+        "id": "ed618c17-bdf5-4842-abe6-a39d324080df",
+        "start_date": "2023-08-02T10:18:23.417Z",
+        "end_date": "2023-08-01T23:44:47.964Z",
+        "created_at": "2023-08-01T12:18:40.144Z",
+        "updated_at": "2023-08-02T09:43:41.786Z",
+        "student_id": "38811a77-dbe7-40df-af9d-cd9214ac89a6"
+      },
+      {
+        "id": "9da6cb1d-f9b7-4be8-a3a3-314c70ba8446",
+        "start_date": "2023-08-01T17:17:47.136Z",
+        "end_date": "2023-08-02T04:54:09.666Z",
+        "created_at": "2023-08-02T10:21:49.722Z",
+        "updated_at": "2023-08-01T23:11:47.350Z",
+        "student_id": "803c6314-0c17-4b97-8ae7-0ba12d92734a"
+      },
+      {
+        "id": "70f2784e-c081-42e3-9740-8dea87c878b2",
+        "start_date": "2023-08-01T20:28:30.213Z",
+        "end_date": "2023-08-01T17:10:02.351Z",
+        "created_at": "2023-08-01T22:26:06.730Z",
+        "updated_at": "2023-08-01T18:52:54.844Z",
+        "student_id": "803c6314-0c17-4b97-8ae7-0ba12d92734a"
+      }
+    ],
+    "marks": [
+      {
+        "id": "e9b93594-3a17-4146-9cbb-a776a7e1329e",
+        "subject": "Mathematics",
+        "score": 55594,
+        "created_at": "2023-08-02T02:05:09.948Z",
+        "updated_at": "2023-08-01T20:20:59.263Z",
+        "student_id": "803c6314-0c17-4b97-8ae7-0ba12d92734a"
+      },
+      {
+        "id": "24f3731f-a572-4d18-bdc4-dabef4d14c4a",
+        "subject": "Science",
+        "score": 20383,
+        "created_at": "2023-08-02T02:49:08.267Z",
+        "updated_at": "2023-08-01T20:54:05.400Z",
+        "student_id": "803c6314-0c17-4b97-8ae7-0ba12d92734a"
+      },
+      {
+        "id": "6bc19df9-85c7-4416-8a9c-4f892f42fa21",
+        "subject": "History",
+        "score": 93296,
+        "created_at": "2023-08-02T01:30:38.118Z",
+        "updated_at": "2023-08-01T19:21:52.588Z",
+        "student_id": "9d2a499c-5d37-4eb2-9e1c-c6f969120dff"
+      },
+      {
+        "id": "b4799766-a37d-4bd6-b74e-c3d99d250198",
+        "subject": "English",
+        "score": 44253,
+        "created_at": "2023-08-01T23:04:31.771Z",
+        "updated_at": "2023-08-02T05:37:28.316Z",
+        "student_id": "9052b7e3-1041-4ebd-9590-31ae2fac72f0"
+      },
+      {
+        "id": "a142d07f-a606-4ba4-ae4f-0acf332abea6",
+        "subject": "Physics",
+        "score": 18577,
+        "created_at": "2023-08-02T08:44:13.184Z",
+        "updated_at": "2023-08-01T20:07:58.994Z",
+        "student_id": "38811a77-dbe7-40df-af9d-cd9214ac89a6"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "d6b79179-e7ab-4631-ba2b-cc4ea1392f69",
+        "evaluation_date": "2023-08-01T16:27:29.058Z",
+        "performance_score": 62963,
+        "created_at": "2023-08-01T18:41:36.352Z",
+        "updated_at": "2023-08-01T22:03:33.394Z",
+        "student_id": "38811a77-dbe7-40df-af9d-cd9214ac89a6"
+      },
+      {
+        "id": "fb86ae44-5fee-4f63-8e36-62e2d5941e4a",
+        "evaluation_date": "2023-08-01T17:21:58.011Z",
+        "performance_score": 10824,
+        "created_at": "2023-08-02T05:33:31.735Z",
+        "updated_at": "2023-08-02T07:08:35.298Z",
+        "student_id": "9052b7e3-1041-4ebd-9590-31ae2fac72f0"
+      },
+      {
+        "id": "76546fb2-3eb1-4b64-a7c8-aeca1c69c33e",
+        "evaluation_date": "2023-08-01T14:46:46.001Z",
+        "performance_score": 23591,
+        "created_at": "2023-08-01T15:10:59.267Z",
+        "updated_at": "2023-08-01T18:29:30.983Z",
+        "student_id": "ea44b788-604e-4aba-a825-c577f916b75c"
+      },
+      {
+        "id": "25cd2af3-ccad-453b-b529-3c5a325ded0f",
+        "evaluation_date": "2023-08-01T16:06:04.191Z",
+        "performance_score": 59662,
+        "created_at": "2023-08-01T14:30:15.574Z",
+        "updated_at": "2023-08-01T23:37:32.720Z",
+        "student_id": "9052b7e3-1041-4ebd-9590-31ae2fac72f0"
+      },
+      {
+        "id": "4df1be1e-11c7-458d-b493-7055aa163611",
+        "evaluation_date": "2023-08-02T00:34:14.276Z",
+        "performance_score": 41702,
+        "created_at": "2023-08-02T11:26:51.451Z",
+        "updated_at": "2023-08-02T07:31:37.941Z",
+        "student_id": "9052b7e3-1041-4ebd-9590-31ae2fac72f0"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "49ca89b0-29c1-469c-b2e1-7c31816fd3fd",
+        "name": "Alice",
+        "created_at": "2023-08-02T07:54:37.061Z",
+        "updated_at": "2023-08-02T11:02:57.413Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c59e3ae-9d48-4f89-9358-4569e8fd7200",
+        "name": "Bob",
+        "created_at": "2023-08-02T00:22:19.218Z",
+        "updated_at": "2023-08-02T09:28:02.460Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "759ad3c8-bb18-4d3b-9952-84aace3d1915",
+        "name": "Eva",
+        "created_at": "2023-08-02T01:34:59.938Z",
+        "updated_at": "2023-08-02T09:46:53.425Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e8b9b6e-1d45-4a6a-8cc1-c7c4a4e4c004",
+        "name": "Max",
+        "created_at": "2023-08-01T12:33:34.135Z",
+        "updated_at": "2023-08-02T04:23:40.928Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "114c81e0-4d22-463f-ab92-954b87e7d6a4",
+        "name": "Lily",
+        "created_at": "2023-08-01T18:29:08.599Z",
+        "updated_at": "2023-08-01T18:41:50.682Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "f45dabc2-6708-497a-ba61-caf60a52e048",
+        "start_date": "2023-08-01T20:10:46.794Z",
+        "end_date": "2023-08-01T12:04:51.686Z",
+        "created_at": "2023-08-01T16:36:38.809Z",
+        "updated_at": "2023-08-02T10:17:13.235Z",
+        "student_id": "114c81e0-4d22-463f-ab92-954b87e7d6a4"
+      },
+      {
+        "id": "512e9f1c-0cee-4367-93a0-dd97737d11f8",
+        "start_date": "2023-08-02T02:28:16.035Z",
+        "end_date": "2023-08-01T21:34:03.835Z",
+        "created_at": "2023-08-01T12:25:35.738Z",
+        "updated_at": "2023-08-02T00:59:43.642Z",
+        "student_id": "114c81e0-4d22-463f-ab92-954b87e7d6a4"
+      },
+      {
+        "id": "10d2bb9d-d9af-45b3-b9b4-69527805fb36",
+        "start_date": "2023-08-01T17:13:24.173Z",
+        "end_date": "2023-08-02T03:07:11.773Z",
+        "created_at": "2023-08-02T01:57:11.058Z",
+        "updated_at": "2023-08-01T17:41:13.077Z",
+        "student_id": "114c81e0-4d22-463f-ab92-954b87e7d6a4"
+      },
+      {
+        "id": "5ec7cf8f-92c2-4e76-ac55-03238f39abfd",
+        "start_date": "2023-08-02T08:06:51.525Z",
+        "end_date": "2023-08-01T13:57:12.453Z",
+        "created_at": "2023-08-01T15:40:33.049Z",
+        "updated_at": "2023-08-02T01:37:42.995Z",
+        "student_id": "114c81e0-4d22-463f-ab92-954b87e7d6a4"
+      },
+      {
+        "id": "71aec4a4-e935-4652-a72f-0795b7e0ab9d",
+        "start_date": "2023-08-02T04:26:03.221Z",
+        "end_date": "2023-08-02T05:24:35.250Z",
+        "created_at": "2023-08-02T11:18:34.583Z",
+        "updated_at": "2023-08-02T00:05:07.949Z",
+        "student_id": "114c81e0-4d22-463f-ab92-954b87e7d6a4"
+      }
+    ],
+    "marks": [
+      {
+        "id": "a19be96d-26e3-4898-b520-9b69534037f6",
+        "subject": "Mathematics",
+        "score": 64507,
+        "created_at": "2023-08-02T10:03:01.088Z",
+        "updated_at": "2023-08-01T20:14:54.602Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      },
+      {
+        "id": "24cf8f89-a4a2-4ed1-ba81-fe7ace5d7154",
+        "subject": "Science",
+        "score": 80653,
+        "created_at": "2023-08-02T04:04:01.706Z",
+        "updated_at": "2023-08-02T07:54:27.877Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      },
+      {
+        "id": "dfbe6007-bea4-4100-be46-c7bd3fbac896",
+        "subject": "History",
+        "score": 81746,
+        "created_at": "2023-08-01T23:39:12.576Z",
+        "updated_at": "2023-08-02T04:13:41.984Z",
+        "student_id": "3e8b9b6e-1d45-4a6a-8cc1-c7c4a4e4c004"
+      },
+      {
+        "id": "a28e24df-3208-4366-8648-9c3402218693",
+        "subject": "English",
+        "score": 82153,
+        "created_at": "2023-08-01T19:48:53.430Z",
+        "updated_at": "2023-08-01T18:13:23.212Z",
+        "student_id": "49ca89b0-29c1-469c-b2e1-7c31816fd3fd"
+      },
+      {
+        "id": "78e3b663-dd0c-40e7-b0e5-df073b50c102",
+        "subject": "Physics",
+        "score": 14503,
+        "created_at": "2023-08-01T22:31:58.762Z",
+        "updated_at": "2023-08-01T18:06:58.720Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "37f46442-ed79-4660-ad3f-c40b1a382c29",
+        "evaluation_date": "2023-08-02T03:28:00.239Z",
+        "performance_score": 43388,
+        "created_at": "2023-08-02T00:54:23.619Z",
+        "updated_at": "2023-08-02T00:51:18.890Z",
+        "student_id": "3e8b9b6e-1d45-4a6a-8cc1-c7c4a4e4c004"
+      },
+      {
+        "id": "2e3e18f4-89df-44ba-926e-9ccf9e83174e",
+        "evaluation_date": "2023-08-02T09:12:18.520Z",
+        "performance_score": 79424,
+        "created_at": "2023-08-01T22:09:26.926Z",
+        "updated_at": "2023-08-01T14:46:50.630Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      },
+      {
+        "id": "826821a9-9bdd-49c1-8872-09748ffcf56e",
+        "evaluation_date": "2023-08-02T08:25:58.234Z",
+        "performance_score": 85007,
+        "created_at": "2023-08-02T02:17:26.829Z",
+        "updated_at": "2023-08-01T22:58:44.476Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      },
+      {
+        "id": "f680be31-431b-470a-a541-be785c88c041",
+        "evaluation_date": "2023-08-02T02:21:07.409Z",
+        "performance_score": 68244,
+        "created_at": "2023-08-02T09:02:34.266Z",
+        "updated_at": "2023-08-02T08:08:07.532Z",
+        "student_id": "759ad3c8-bb18-4d3b-9952-84aace3d1915"
+      },
+      {
+        "id": "7b86f9aa-6b32-45bf-9be9-3ff5e0ea6ea1",
+        "evaluation_date": "2023-08-01T15:59:14.993Z",
+        "performance_score": 40376,
+        "created_at": "2023-08-02T09:05:05.260Z",
+        "updated_at": "2023-08-01T14:18:14.615Z",
+        "student_id": "2c59e3ae-9d48-4f89-9358-4569e8fd7200"
+      }
+    ]
+  },
+  {
+    "student": [
+      {
+        "id": "86a38b7f-6307-4496-91b9-76333e0812b9",
+        "name": "Alice",
+        "created_at": "2023-08-02T05:10:59.370Z",
+        "updated_at": "2023-08-01T16:23:48.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffe49524-55fb-4e36-94f8-0909798672b5",
+        "name": "Bob",
+        "created_at": "2023-08-02T03:40:51.269Z",
+        "updated_at": "2023-08-02T10:44:12.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48d16d4f-c1a1-46f4-a4bd-01c6fec6e837",
+        "name": "Eva",
+        "created_at": "2023-08-01T16:19:33.452Z",
+        "updated_at": "2023-08-01T17:28:27.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c67dc9-c6e9-49b2-b0b2-7115a4445c68",
+        "name": "Max",
+        "created_at": "2023-08-01T16:05:13.794Z",
+        "updated_at": "2023-08-02T07:34:50.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a",
+        "name": "Lily",
+        "created_at": "2023-08-01T16:46:27.390Z",
+        "updated_at": "2023-08-01T18:54:47.178Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "7eb4bbed-3176-464a-a90f-bc0f80b8a137",
+        "start_date": "2023-08-02T03:54:45.234Z",
+        "end_date": "2023-08-01T12:17:27.010Z",
+        "created_at": "2023-08-01T20:00:56.093Z",
+        "updated_at": "2023-08-01T19:38:20.786Z",
+        "student_id": "ffe49524-55fb-4e36-94f8-0909798672b5"
+      },
+      {
+        "id": "2c237c43-c623-4157-813e-63b988307518",
+        "start_date": "2023-08-01T19:10:08.041Z",
+        "end_date": "2023-08-02T03:52:44.415Z",
+        "created_at": "2023-08-01T18:20:24.525Z",
+        "updated_at": "2023-08-01T14:21:27.214Z",
+        "student_id": "86a38b7f-6307-4496-91b9-76333e0812b9"
+      },
+      {
+        "id": "c32703cb-5c80-40d7-ba12-177c5570929c",
+        "start_date": "2023-08-02T05:02:07.133Z",
+        "end_date": "2023-08-01T14:05:36.793Z",
+        "created_at": "2023-08-01T18:13:43.090Z",
+        "updated_at": "2023-08-01T18:14:34.345Z",
+        "student_id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a"
+      },
+      {
+        "id": "3930c1d8-1cac-42f8-9e4b-23c3d693534d",
+        "start_date": "2023-08-01T12:11:48.455Z",
+        "end_date": "2023-08-01T14:23:48.110Z",
+        "created_at": "2023-08-01T21:52:38.125Z",
+        "updated_at": "2023-08-02T04:26:37.439Z",
+        "student_id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a"
+      },
+      {
+        "id": "20faacfb-1bdf-4e8b-99c6-7c2775eae0d2",
+        "start_date": "2023-08-02T11:39:00.823Z",
+        "end_date": "2023-08-02T08:49:26.722Z",
+        "created_at": "2023-08-01T14:54:53.261Z",
+        "updated_at": "2023-08-01T23:49:34.832Z",
+        "student_id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a"
+      }
+    ],
+    "marks": [
+      {
+        "id": "ab756a83-454e-4ab1-ba7c-a1d643c73456",
+        "subject": "Mathematics",
+        "score": 5284,
+        "created_at": "2023-08-02T09:10:12.118Z",
+        "updated_at": "2023-08-02T00:26:01.218Z",
+        "student_id": "26c67dc9-c6e9-49b2-b0b2-7115a4445c68"
+      },
+      {
+        "id": "a13e55f3-b1d3-49df-bb27-1945040c4cbd",
+        "subject": "Science",
+        "score": 93991,
+        "created_at": "2023-08-01T23:32:01.051Z",
+        "updated_at": "2023-08-01T17:42:01.679Z",
+        "student_id": "48d16d4f-c1a1-46f4-a4bd-01c6fec6e837"
+      },
+      {
+        "id": "3d89f5d5-7223-457a-bbe8-e0d69dc3067c",
+        "subject": "History",
+        "score": 25201,
+        "created_at": "2023-08-01T12:10:01.374Z",
+        "updated_at": "2023-08-02T09:02:10.327Z",
+        "student_id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a"
+      },
+      {
+        "id": "6eb1cc50-88f1-4172-8e13-ea40731175c0",
+        "subject": "English",
+        "score": 94649,
+        "created_at": "2023-08-01T16:02:31.854Z",
+        "updated_at": "2023-08-01T22:22:37.117Z",
+        "student_id": "26c67dc9-c6e9-49b2-b0b2-7115a4445c68"
+      },
+      {
+        "id": "a2b9b67b-f6f1-43e0-86cd-0299f846b8a6",
+        "subject": "Computer Science",
+        "score": 7895,
+        "created_at": "2023-08-02T09:53:09.159Z",
+        "updated_at": "2023-08-01T17:03:29.690Z",
+        "student_id": "ffe49524-55fb-4e36-94f8-0909798672b5"
+      }
+    ],
+    "evaluation": [
+      {
+        "id": "68b8289c-21bb-4b02-b334-4aa6c9e3b0e7",
+        "evaluation_date": "2023-08-02T06:31:30.346Z",
+        "performance_score": 21996,
+        "created_at": "2023-08-02T09:24:52.004Z",
+        "updated_at": "2023-08-02T05:14:38.194Z",
+        "student_id": "86a38b7f-6307-4496-91b9-76333e0812b9"
+      },
+      {
+        "id": "5f716b34-227b-4f26-9d6e-11349f8e1550",
+        "evaluation_date": "2023-08-01T15:02:07.495Z",
+        "performance_score": 86384,
+        "created_at": "2023-08-01T19:35:49.313Z",
+        "updated_at": "2023-08-01T16:16:58.263Z",
+        "student_id": "445f2d78-7b21-4f8d-93b7-3f7cf28d1e1a"
+      },
+      {
+        "id": "2ea95e4f-985c-41b2-83b0-9b2a50cd4bef",
+        "evaluation_date": "2023-08-01T17:11:11.844Z",
+        "performance_score": 11601,
+        "created_at": "2023-08-02T00:52:03.512Z",
+        "updated_at": "2023-08-01T12:39:28.599Z",
+        "student_id": "26c67dc9-c6e9-49b2-b0b2-7115a4445c68"
+      },
+      {
+        "id": "712b5143-8b4f-4012-835e-2ca055ffb872",
+        "evaluation_date": "2023-08-02T00:24:44.839Z",
+        "performance_score": 71570,
+        "created_at": "2023-08-01T22:33:17.523Z",
+        "updated_at": "2023-08-01T20:06:25.789Z",
+        "student_id": "86a38b7f-6307-4496-91b9-76333e0812b9"
+      },
+      {
+        "id": "f7c02f9c-b60d-4b52-9118-c0a4ce97689e",
+        "evaluation_date": "2023-08-01T23:49:25.576Z",
+        "performance_score": 92999,
+        "created_at": "2023-08-01T18:01:20.885Z",
+        "updated_at": "2023-08-01T16:36:47.722Z",
+        "student_id": "48d16d4f-c1a1-46f4-a4bd-01c6fec6e837"
+      }
+    ]
+  }
+]
